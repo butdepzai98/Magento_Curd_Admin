@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ubuntu_Curd::ad_ubuntu_menu" title="Ubuntu" module="Ubuntu_Curd" sortOrder="20" resource="Ubuntu_Curd::ad_ubuntu" />
+        <add id="Ubuntu_Curd::ad_ubuntu_posts_menu" title="POSTS" module="Ubuntu_Curd" sortOrder="1" parent="Ubuntu_Curd::ad_ubuntu_menu" action="ad_ubuntu/posts/index" resource="Ubuntu_Curd::posts" />
+    </menu>
+</config>
